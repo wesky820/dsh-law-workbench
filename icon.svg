@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Lawyer workbench">
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#1f4e79"/>
+  <g fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 14v34"/>
+    <path d="M24 48h16"/>
+    <path d="M32 19 15 25"/>
+    <path d="M32 19l17 6"/>
+    <path d="M15 25 8.5 38.5a7.5 7.5 0 0 0 13 0L15 25z"/>
+    <path d="M49 25l-6.5 13.5a7.5 7.5 0 0 0 13 0L49 25z"/>
+  </g>
+  <circle cx="32" cy="14" r="3.2" fill="#ffffff"/>
+</svg>

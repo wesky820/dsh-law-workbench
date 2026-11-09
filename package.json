@@ -1,0 +1,55 @@
+{
+  "name": "dsh-law-workbench",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "律师工作台：案件看板 + 期限/证据/主张台账 + 材料阅读（PDF 版面、文本层选词、内嵌 AI 对话栏），为 DeepSeek Harness 提供中国法律实务工作台界面",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./client": "./client.js"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "src/*.js",
+    "build.mjs",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "INSTALL.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "law",
+    "legal",
+    "case-management",
+    "pdf-reader"
+  ],
+  "license": "MIT",
+  "author": "wesky820",
+  "homepage": "https://github.com/wesky820/dsh-law-workbench#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesky820/dsh-law-workbench.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wesky820/dsh-law-workbench/issues"
+  }
+}
